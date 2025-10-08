@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.profile{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    background-color: brown;
+    color: yellow;
+}
+.profile-image{
+    border: 4px solid black;
+    height: 150px;
+    width: 150px;
+}
+.email{
+    width: 170px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: brown;
+}
+::placeholder{
+    color: yellow;
+}
+.button-news{
+    width: 170px;
+    background-color: yellow;
+    color: brown;
+    padding: 7px;
+    font-weight: bold;
+    border: none;
+}
+.button{
+    margin-top: 10px;
+}
+
+
+.profile2{
+    background-color:rgb(213, 236, 247);
+    height: 300px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+    border-bottom: 8px solid black;
+} 
+.avatar{    
+    height:150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.content{   
+    text-align: center;
+}
