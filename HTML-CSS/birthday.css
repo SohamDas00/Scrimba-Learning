@@ -1,0 +1,99 @@
+* {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EEF5FF;
+    color: black;
+    font-weight: bold;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2,h4{
+    background-color:#86B6F6 ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    border: 5px solid #86B6F6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.year{
+    margin-top: -2px;
+}
+.age{
+    margin-top: 50px;
+}
+.birthday2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.wrap{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/051/845/091/small_2x/seamless-patterns-of-gift-box-in-different-variations-with-bright-colors-and-ribbons-for-print-wallpaper-design-wrapping-or-festive-background-of-winter-holiday-vector.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+}
+.wrap:hover{
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyNG50bHB1Zmx1ZjZvYzM2dnJibG9vZnB2cXRjYmYxaHdhbjA0MWI4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lNByEO1uTbVAikv8oT/200w.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.wrap2{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/051/845/091/small_2x/seamless-patterns-of-gift-box-in-different-variations-with-bright-colors-and-ribbons-for-print-wallpaper-design-wrapping-or-festive-background-of-winter-holiday-vector.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+}
+.wrap2:hover{
+    background-image: url('https://cdn11.bigcommerce.com/s-w7ayvhhxjn/images/stencil/590x590/products/2302/8362/AU321-HAMP9-A__85807.1753931158.jpg?c=1');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.wrap3{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/051/845/091/small_2x/seamless-patterns-of-gift-box-in-different-variations-with-bright-colors-and-ribbons-for-print-wallpaper-design-wrapping-or-festive-background-of-winter-holiday-vector.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+}
+.wrap3:hover{
+    background-image: url('https://cdn11.bigcommerce.com/s-w7ayvhhxjn/images/stencil/590x590/products/2302/8362/AU321-HAMP9-A__85807.1753931158.jpg?c=1');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.soham{
+    text-align: center;
+    margin-top: 50px;
+}
