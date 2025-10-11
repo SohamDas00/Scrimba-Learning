@@ -1,10 +1,3 @@
-// document.querySelector(".count").innerHTML=5
-
-// let myAge=5;
-// let humanDogRatio=4;
-// let ans=myAge*humanDogRatio;
-
-// console.log(ans);
 let countDigit=0;
 const plus=document.querySelector(".plus");
 const minus=document.querySelector(".minus");
