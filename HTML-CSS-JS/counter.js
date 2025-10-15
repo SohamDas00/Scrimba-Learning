@@ -57,3 +57,26 @@ five.addEventListener('click',()=>{
 six.addEventListener('click',()=>{
     cou2.innerHTML=co1+=3;
 })
+
+
+const emojies=["🐒","🦋","🐘","🦒","🐶","🐱","🦁","🐻","🐸","🐢"]
+
+
+const randomEmojie1=Math.floor(Math.random()*emojies.length)
+const dataEmojie1=emojies[randomEmojie1];
+const randomEmojie2=Math.floor(Math.random()*emojies.length)
+const dataEmojie2=emojies[randomEmojie2];
+
+const fightButton=document.querySelector(".fightButton")
+const emojie1=document.querySelector(".emojie1")
+const emojie2=document.querySelector(".emojie2")
+
+fightButton.addEventListener('click',()=>{
+    emojie1.innerHTML=dataEmojie1;
+    emojie2.innerHTML=dataEmojie2;
+})
+
+const reload=document.querySelector(".reload")
+reload.addEventListener('click',()=>{
+    window.location.reload();
+})
