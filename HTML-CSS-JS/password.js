@@ -32,7 +32,7 @@ button.addEventListener('click', () => {
 
 sugg1.addEventListener('click', () => {
     navigator.clipboard.writeText(sugg1.innerText)
-    .then(() => {
+        .then(() => {
             let original = sugg1.innerText;
             sugg1.innerText = "Copied!";
             setTimeout(() => {
@@ -42,11 +42,23 @@ sugg1.addEventListener('click', () => {
 })
 sugg2.addEventListener('click', () => {
     navigator.clipboard.writeText(sugg2.innerText)
-    .then(() => {
+        .then(() => {
             let original = sugg2.innerText;
             sugg2.innerText = "Copied!";
             setTimeout(() => {
                 sugg2.innerText = original;
-            }, 1000); 
+            }, 1000);
         });
+})
+
+
+const input1 = document.querySelector(".place1")
+const input2 = document.querySelector(".place2")
+const but = document.querySelector(".add")
+const adding = document.querySelector(".adding")
+
+but.addEventListener("click", () => {
+    const value1 = Number(input1.value);
+    const value2 = Number(input2.value);
+    adding.innerHTML = `${value1} + ${value2} = ${value1 + value2}`;
 })
