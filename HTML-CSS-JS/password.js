@@ -62,3 +62,11 @@ but.addEventListener("click", () => {
     const value2 = Number(input2.value);
     adding.innerHTML = `${value1} + ${value2} = ${value1 + value2}`;
 })
+
+const welcome=document.querySelector(".myName")
+// welcome.innerHTML="Soham Das"
+const funWel=(name)=>{
+    welcome.innerHTML=`${name}`
+}
+funWel("Soham Das")
+//functional parameter
