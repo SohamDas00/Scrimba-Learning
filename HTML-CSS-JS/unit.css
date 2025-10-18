@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    height: 700px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 81, 238);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.head {
+    color: white;
+}
+
+.input {
+    border: 1px solid white;
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: rgb(84, 81, 238);
+    color: white;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.button:active {
+  transform: translateY(2px);
+  box-shadow: 2 2 5px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+}
+
+.sub {
+    background-color: rgb(236, 234, 234);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    background-color: white;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
