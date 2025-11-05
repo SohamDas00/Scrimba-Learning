@@ -1,14 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { CiBookmark } from "react-icons/ci";
+import { FaBookmark } from "react-icons/fa";
+
 
 const Box = (props) => {
     const alertMess=()=>{
-        alert("a");
+        alert("successfully applied!!");
     }
+    const [isSaved,setIsSaved] =useState(false);
     const saved=()=>{
-        alert("Hello")
-        
+        setIsSaved(!isSaved);
     }
     return (
         <>
@@ -16,9 +19,9 @@ const Box = (props) => {
                 <Card.Body className='box'>
                     <div className="picture">
                         <img src={props.image} alt="" className='logo' />
-                        <button className="logo2" onClick={saved}>
-                            <p className='save'>Save</p>
-                            <CiBookmark />
+                        <button className={`logo2 ${isSaved ? "saved" : ""}`}onClick={saved}>
+                            <p className='save'>{isSaved?"saved":"save"}</p>
+                            {isSaved ? <FaBookmark />:<CiBookmark />}
                         </button>
                     </div>
                     <div className='sub'>
