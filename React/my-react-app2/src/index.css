@@ -93,6 +93,7 @@
 
 .logo2 {
     background-color: white;
+    color: grey;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -101,7 +102,10 @@
     border-radius: 5px;
     padding: 8px 16px;
 }
-
+.logo2.saved{
+    background-color: rgb(209, 209, 209);
+    color: black;   
+}
 .save {
     margin-top: 13px;
 }
